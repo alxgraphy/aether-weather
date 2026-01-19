@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { MapPin, Search, Droplets, Wind, Eye, Gauge, Sunrise, Sunset, CloudRain, Thermometer, ArrowUp, ArrowDown, Compass, X } from 'lucide-react';
 
-const API_KEY = '1223df8e5675378e580adec778125f40';
+const API_KEY = import.meta.env.VITE_API_KEY;
 
 export default function WeatherApp() {
   const [weather, setWeather] = useState(null);
