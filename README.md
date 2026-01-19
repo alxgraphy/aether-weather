@@ -1,114 +1,109 @@
-# AETHER
+# AETHER ☁️
 
-A minimalist weather application with a brutalist black and white design aesthetic. Built with React and powered by the OpenWeatherMap API.
+> A bMinimilist Weather App
 
-![AETHER Screenshot](https://via.placeholder.com/800x400/000000/FFFFFF?text=AETHER+Weather+App)
+![AETHER Dark Mode](https://github.com/user-attachments/assets/13a2f5ef-7840-4aa0-8f4e-94ffbd7e9990)
 
-## Features
+![AETHER Light Mode](https://github.com/user-attachments/assets/a6bf1917-ae3c-4bc7-865e-e6e96b0c0fe8)
 
-- **Real-time Weather Data** - Current conditions, hourly forecast (8 hours), and 5-day forecast
-- **Auto-location Detection** - Automatically detects your location on first load
-- **City Search** - Search for weather in any city worldwide
-- **Temperature Units** - Toggle between Celsius and Fahrenheit
-- **Light/Dark Mode** - Switch between black and white themes
-- **Detailed Views** - Click any weather metric for expanded information
-- **Responsive Design** - Works seamlessly on desktop, tablet, and mobile
+## ✨ Features
 
-## Tech Stack
+**Core Functionality**
+- 🌍 **Auto-location Detection** - Finds you instantly
+- 🔍 **Global City Search** - Any city, anywhere
+- 📊 **Real-time Data** - Current conditions + 8hr hourly + 5-day forecast
+- 🌡️ **Temperature Toggle** - Celsius ⇄ Fahrenheit
+- 🎨 **Light/Dark Mode** - Pure black ⇄ pure white
 
-- **React** - UI framework
-- **Tailwind CSS** - Styling
-- **Vite** - Build tool
-- **OpenWeatherMap API** - Weather data
-- **Lucide React** - Icons
+**Interactions**
+- 🎯 **Expandable Details** - Click any metric for deep insights
+- 📱 **Fully Responsive** - Desktop, tablet, mobile perfection
+- ⚡ **Smooth Animations** - Every interaction feels premium
+- 🎭 **No Background Scroll** - Modals lock focus
 
-## Installation
-
-1. Clone the repository:
-```bash
-git clone https://github.com/alxgraphy/alx-weather.git
-cd alx-weather
+## 🛠️ Tech Stack
+```
+React + Vite + Tailwind CSS
+OpenWeatherMap API
+Lucide React Icons
 ```
 
-2. Install dependencies:
+## 🚀 Quick Start
+
+**1. Clone & Install**
 ```bash
+git clone https://github.com/alxgraphy/aether-weather.git
+cd aether-weather
 npm install
 ```
 
-3. Create a `.env` file in the root directory:
-```bash
+**2. Environment Setup**
+
+Create `.env` in root:
+```env
 VITE_API_KEY=your_openweathermap_api_key
 ```
 
-4. Get your API key from [OpenWeatherMap](https://openweathermap.org/api)
+Get your key: [OpenWeatherMap API](https://openweathermap.org/api)
 
-5. Run the development server:
+**3. Run**
 ```bash
 npm run dev
 ```
 
-6. Open [http://localhost:5173](http://localhost:5173)
+Open → `http://localhost:5173`
 
-## Build for Production
+## 📦 Build & Deploy
+
+**Build:**
 ```bash
 npm run build
 ```
 
-## Deployment
+**Deploy on Vercel:**
+1. Push to GitHub
+2. Import repo on [Vercel](https://vercel.com) or any hosting platform i'm using vercel.
+3. Add `VITE_API_KEY` environment variable
+4. Deploy 🚀
 
-This project is optimized for deployment on [Vercel](https://vercel.com):
+## 🎯 Design Philosophy
 
-1. Push your code to GitHub
-2. Import your repository on Vercel
-3. Add `VITE_API_KEY` as an environment variable in Vercel settings
-4. Deploy
+**\\MINIMALISM. MAXIMALISM.//**
 
-## Design Philosophy
+- High contrast black/white only
+- Geometric precision
+- Bold typography with extreme letter spacing
+- Micro-animations everywhere
+- Zero visual compromise
 
-AETHER embraces a brutalist, minimalist design approach:
-- High contrast black and white color scheme
-- Clean geometric layouts
-- Bold typography with wide letter spacing
-- Smooth animations and transitions
-- No unnecessary visual elements
+## 📊 Weather Data
 
-## Weather Metrics
-
-**Current Weather:**
-- Temperature (with feels like, high, low)
-- Weather conditions
-- Humidity
-- Wind speed and direction
-- Atmospheric pressure
-- Visibility
-- Cloud coverage
-- Sunrise/sunset times
+**Current:**
+Temperature • Feels Like • High/Low • Conditions • Humidity • Wind Speed & Direction • Pressure • Visibility • Clouds • Sunrise/Sunset
 
 **Forecasts:**
-- Hourly forecast for the next 24 hours
-- 5-day daily forecast
-- Detailed view for each forecast day
+- ⏰ Next 24 hours (hourly)
+- 📅 5-day outlook with detailed breakdowns
 
-## Browser Support
+**Expandable Views:**
+Click any metric → Full-screen detailed analysis
 
-- Chrome (recommended)
-- Firefox
-- Safari
-- Edge
-- Opera
+## 🌐 Browser Support
 
+All Broswers (Opera has issues with locations, Fixing Now)
 
-## Acknowledgments
+## 🙏 Credits
 
-- Weather data provided by [OpenWeatherMap](https://openweathermap.org/)
-- Inspired by Nothing Phone's design language
-- Icons by [Lucide](https://lucide.dev/)
+**Data:** [OpenWeatherMap](https://openweathermap.org/)  
+**Design Inspiration:** Nothing Phone aesthetic  
+**Icons:** [Lucide](https://lucide.dev/)
 
 ---
 
-**Alexander Wondwossen** ([@alxgraphy](https://github.com/alxgraphy)) Made with ❤️ in Toronto, Canada 🇨🇦
+<div align="center">
 
+**Alexander Wondwossen** ([@alxgraphy](https://github.com/alxgraphy))
 
-## License
+Made with ❤️ in Toronto, Canada 🇨🇦
 
-MIT License - feel free to use this project for personal or commercial purposes.
+</div>
