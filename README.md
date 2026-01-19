@@ -1,6 +1,6 @@
 # AETHER ☁️
 
-> A bMinimilist Weather App
+> A Minimilist Weather App
 
 ![AETHER Dark Mode](https://github.com/user-attachments/assets/13a2f5ef-7840-4aa0-8f4e-94ffbd7e9990)
 
