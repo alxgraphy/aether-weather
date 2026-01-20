@@ -95,7 +95,6 @@ All Broswers (Opera has issues with locations, Fixing Now)
 ## 🙏 Credits
 
 **Data:** [OpenWeatherMap](https://openweathermap.org/)  
-**Design Inspiration:** Nothing Phone aesthetic  
 **Icons:** [Lucide](https://lucide.dev/)
 
 ---
