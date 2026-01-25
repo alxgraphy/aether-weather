@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { Analytics } from '@vercel/analytics/react';
 import { MapPin, Search, Droplets, Wind, Eye, Gauge, Sunrise, Sunset, CloudRain, Thermometer, ArrowUp, ArrowDown, Compass, X } from 'lucide-react';
 
 const API_KEY = import.meta.env.VITE_API_KEY;
@@ -647,6 +648,7 @@ export default function WeatherApp() {
           </div>
         </div>
       </div>
+      <Analytics />
     </div>
   );
 }
